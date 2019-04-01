@@ -1,0 +1,229 @@
+body{
+	font-family: 'Lato', sans-serif;
+	padding-top: 20px;
+	line-height: 2;
+}
+/*NAVIGASI*/
+.navbar-default{
+	background-color: transparent;
+	border-color: transparent;
+}
+.img-logo{
+	width: 80px;
+	height: auto;
+}
+.text-btn-top{
+	font-size: 25px;
+}
+.form-control:focus{
+	border-color: transparent;
+	outline: 0;
+	-webkit-box-shadow: inset 0 0 0 rgba(0,0,0,.075), 0 0 0 rgba(102,175,223,.6);
+	box-shadow: inset 0 0 0 rgba(0,0,0,.075), 0 0 0 rgba(102,175,223,.6);
+}
+.navbar-form{
+	padding: 0;
+}
+.form-top{
+	height: 45px;
+	width: 305px !important;
+	border: 0px;
+	border-radius: 0px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0);
+	border-bottom: 1px solid #333;
+	padding: 0;
+}
+.btn-search-top{
+	background-color: transparent;
+    border-color: transparent;
+    padding: 0px 0px 0px 10px;
+}
+
+.navbar-top .menu-top{
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 16px;
+}
+.navbar-top .menu-top>li>a{
+	padding: 15px 0px 15px 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.navbar-top .menu-top>li:last-child>a{
+	margin-right: 0;
+}
+/* ./ NAVIGASI */
+
+/*Content*/
+.div-gallery-feed{
+	margin-bottom: 50px;
+}
+.title-gallery-feed{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.gallery-feed img{
+	filter: gray;
+	-webkit-filter:grayscale(0);
+	margin-bottom: 8px;
+	width: 100%;
+}
+.gallery-feed img:hover{
+	filter: none;
+	-webkit-filter: grayscale(1);
+}
+.title-2 {
+	font-size: 20px;
+}
+.title-2 h3, h4{
+	font-weight: 900;
+	color: gray;
+}
+.title-2 h5 {
+	padding-bottom: 15px;
+	color: red;
+}
+.btn-gallery-feed{
+	top: 0px;
+	right: 25px;
+	position: absolute;
+	margin-top: 10px;	
+}
+.btn-gallery-feed-btn{
+	color: #666;
+	text-align: center;
+	font-weight: 900;
+	padding: 5px 10px;
+	border: 1px solid #666;
+	width: 200px;
+}
+.btn-gallery-feed-btn:hover{
+	color: #000;
+	border: 2px solid #000;
+	text-decoration: none;
+}
+	
+.center{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+.more-gallery-feed{
+	color: #666;
+	text-align: center;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	border: 2px solid #666;
+	width: 200px;
+	margin-right: 5px;
+}
+.more-gallery-feed:hover{
+	color: #000;
+	border: 2px solid #000;
+	text-decoration: none;
+}
+/* ./ Content*/
+
+/*Responsive navigasi*/
+@media (min-width: 729px){
+	.container{
+		max-width: 1024px;
+	}
+}
+@media (max-width: 729px){
+	.img-logo{
+		position: relative;
+		width: 40px;
+		height: auto;
+		top: -10px;
+		right: 5px;
+	}
+	.form-top{
+		height: 45px;
+		width: 100% !important;
+	}
+}
+
+/*./ Responsive Navigasi */
+
+
+/* Panel produk tipe 1 */
+.produk-panel {
+	background: #dadad2;
+	text-align: center;
+}
+/* Product Panel 2*/
+.produk-panel-2 {
+	background: #dadad2;
+	text-align: center;
+}
+.produk-panel-2 .badges {
+	position: absolute;
+	top: 20px;
+	left: 35px;
+}
+.badges-hot {
+	background: #ed5565;
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	border-radius: 100%;
+}
+
+
+/* Panel produk tipe 2 */
+#spoti {
+	margin-top: -15px;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 220px;
+	width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#spoti .btn-clear-g {
+	top: 15%;
+	right: 10px;
+	position: absolute;
+	margin-top: 5px;
+}
+#spoti .sp-title {
+	bottom: 15%;
+	left: 25px;
+	position: absolute;
+	color: #ed5565;
+}
+#spoti .sp-title h3 {
+	font-weight: 900;
+}
+
+#spoti .play{
+	bottom: 15%;
+	right: 25px;
+	position: absolute;
+	color: #efefef;
+	font-size: 20px
+}
+.followers {
+	margin-left: 5px;
+	margin-top: 5px;
+}
+/*./END Panel produk tipe 2 */
+
